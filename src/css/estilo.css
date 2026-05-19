@@ -68,3 +68,34 @@ header nav ul li a{
 header nav ul li a:hover{
     color: var(--ouro);
 }
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, auto);  
+  gap: 24px;                            
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+ 
+.card {
+  background-color: #ffffff;
+  border: 1px solid var(--fundo-secundario, #F4EFE6);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+ 
+@media (max-width: 576px) {
+  .container-cards {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+ 
+#cadastro{
+    background-color:rgb(120, 120, 120, 0.3);
+    border-radius: 50px;
+}

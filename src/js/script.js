@@ -7,6 +7,7 @@ let vinhoMaisAntigo = "";
 let continuar = true;
  
 const botaocadastro = document.getElementById("cadastro");
+const botaoSobre = document.getElementById("sobre");
  
 function estoqueBaixo(quantidade) {
     return quantidade < 5;
@@ -120,4 +121,10 @@ botaocadastro.addEventListener("click", function () {
         "\nVinho mais antigo: " + vinhoMaisAntigo +
         "\nSafra mais antiga: " + safraMaisAntiga
     );
+});
+
+
+
+botaoSobre.addEventListener ("click", function () {
+    alert("A Vinharia Agnello é um sistema de cadastro de vinhos que permite registrar informações, controlar o estoque e classificar automaticamente cada vinho de acordo com a sua safra, oferecendo uma gestão prática e organizada.")
 });

@@ -1,17 +1,18 @@
 Vinharia Agnello
 
-        Integrantes :
+Integrantes :
+
 Matheus Medeiros Da Cunha RM572780
 Gustavo Ferreira Silva RM571675
 Arthur Caram Fiorese Herrada RM569578
 
-        Descrição do Projeto
+Descrição do Projeto:
 
 A Vinharia Agnello é um sistema interativo de cadastro e gerenciamento de vinhos. O projeto permite ao usuário inserir informações sobre diferentes rótulos e visualizar dados importantes como classificação por idade, controle de estoque e relatórios finais.
 
 O sistema foi desenvolvido com foco em praticar lógica de programação em JavaScript, utilizando validações, estruturas de repetição e manipulação de dados.
 
-       Funcionalidades
+Funcionalidades:
 
 Cadastro de vinhos via botão
 Validação de entradas (evita campos vazios ou inválidos)

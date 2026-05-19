@@ -1,0 +1,70 @@
+:root{
+    --branco: #ffffff;
+    --preto: #000000;
+    --ouro:rgb(221, 198, 122);
+    --vinho: #4A0E17;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--ouro);
+}
+
+header{    
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--vinho);
+    color: var(--branco);
+    box-shadow: 0 5px 5px var(--preto);
+}
+
+header h1{
+    font-family: Verdana;
+    text-align: center;
+} 
+
+header p{
+    font-family: Verdana;
+    text-align: center;
+}
+
+#logo{
+    width: 20%;
+    height: 20%;
+}
+
+
+header nav ul{
+    display:flex;
+    justify-content: center;  
+    align-items: center;      
+    list-style: none;         
+    gap: 24px;               
+    padding: 15px;
+    list-style: none;
+}
+
+header nav ul li{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    font-size: 20px;
+}
+
+
+header nav ul li a{
+    text-decoration: none;
+    color: var(--color1);
+    font-weight: 800;
+}
+
+header nav ul li a:hover{
+    color: var(--ouro);
+}
